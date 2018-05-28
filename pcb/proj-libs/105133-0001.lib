@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 105133-0001
+#
+DEF 105133-0001 J 0 40 Y Y 1 L N
+F0 "J" -222 423 50 H V L BNN
+F1 "105133-0001" -221 -493 50 H V L BNN
+F2 "MOLEX_105133-0001" 0 0 50 H I L BNN
+F3 "WM9734CT-ND" 0 0 50 H I L BNN
+F4 "Molex" 0 0 50 H I L BNN
+F5 "Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port T/R" 0 0 50 H I L BNN
+F6 "1051330001" 0 0 50 H I L BNN
+F7 "https://www.digikey.com/product-detail/en/molex-llc/1051330001/WM9734CT-ND/4037910?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 200 400 200 -400 N
+P 2 0 0 10 200 -400 -200 -400 N
+P 2 0 0 10 -200 -400 -200 400 N
+P 2 0 0 10 -200 400 200 400 N
+X VBUS 1 -300 300 100 R 40 40 0 0 W 
+X D 2 -300 200 100 R 40 40 0 0 B 
+X D+ 3 -300 100 100 R 40 40 0 0 B 
+X ID 4 -300 0 100 R 40 40 0 0 I 
+X GND 5 -300 -100 100 R 40 40 0 0 W 
+X SHIELD S1 -300 -300 100 R 40 40 0 0 P 
+X SHIELD S2 -300 -300 100 R 40 40 0 0 P 
+X SHIELD S3 -300 -300 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
